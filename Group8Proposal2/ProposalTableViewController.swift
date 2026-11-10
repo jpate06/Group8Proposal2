@@ -14,9 +14,9 @@ class ProposalTableViewController: UITableViewController {
     ]
     
     let projectComponents = [
-        ("Component 1", "C1Description"),
-        ("Component 2", "C2Description"),
-        ("Component 3", "C3Description")
+        ("Visuals", "Auto Layout: We will use Auto Layout to constrain our UI design to the screen size, this will give our UI structure and will ensure that it looks good on all kinds of devices\nTable View: We will use a table view to list out the different shapes and formulas that the users can access and use.\nAnimations: Animations will be used to make out design more dynamic, when a user selects a formula the shape for the forumula will appear with an animation."),
+        ("Code", "Optionals: We will use optionals to ensure that the app doesn't crash if a user were to not select a formula.\nFunctions and Closures: Functions and Closures will be used to streamline the process of preparing the app. Since many of the different screens and functions that the user will use are similar, we can use functions and closures to make the process easier.\nNavigation Controller: The navigation controller will be used to navigate through the multiple screens of the project. We are implementing multiple different shape and formulas so this will be very necessary."),
+        ("Geometry Formulas", "Circle Formulas\n   -Circumference: 2*3.14*radius\n   -Area: 3.14*r^2\n   -Volume: (4/3)*3.14*r^3\nRectangle Formulas\n   -Perimeter: 2(l+w)\n   -Area: l*w\n   -Volume: l*w*h\nTriangle Formulas\n   -Area: (1/2)*b*h\n -Volume: (1/3)*r^2*h\n   -Perimeter: a+b+c")
     ]
     
     let timeline = [
